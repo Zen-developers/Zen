@@ -1697,18 +1697,23 @@ html[lang=el] * {
   padding: 260px 60px 80px;
   margin: auto; }
 
+.hero .hero__content:before {
+  content: "";
+  height: 120px;
+  width: 190px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -70px;
+  background-image: url(https://zen-developers.github.io/zendigital.github.io/assets/img/logos/zen-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
 @media only screen and (min-width: 1000px) {
   .hero .hero__content:before {
-    content: "";
-    height: 120px;
-    width: 190px;
-    display: block;
-    margin: auto;
-    position: relative;
-    top: -70px;
-    background-image: url(https://zen-developers.github.io/zendigital.github.io/assets/img/logos/zen-logo.svg);
-    background-size: contain;
-    background-repeat: no-repeat; } }
+    height: 180px;
+    width: 250px; } }
+
 .hero .hero__content__dek {
   max-width: 700px;
   width: 100%;
@@ -3183,6 +3188,11 @@ html {
   order: -1; }
 
 @media only screen and (min-width: 650px) {
+
+  .hero .hero__content:before {
+    height: 80x;
+    width: 150px; }
+
   .grd-row {
     display: -webkit-box;
     display: flex;
@@ -3336,6 +3346,10 @@ html {
     -webkit-box-ordinal-group: 0;
     order: -1; } }
 @media only screen and (min-width: 850px) {
+  .hero .hero__content:before {
+    height: 140px;
+    width: 210px; }
+
   .grd-row {
     display: -webkit-box;
     display: flex;
@@ -3649,6 +3663,11 @@ html {
     order: -1; } }
 @media only screen and (min-width: 1250px) {
   .grd-row {
+
+    .hero .hero__content:before {
+    height: 220px;
+    width: 290px; }
+
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap;

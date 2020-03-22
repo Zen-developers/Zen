@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Univers Pro Extended';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./UniversExtendedBold.ttf) format('truetype');
+}
+
+.html, body {
+	width: 100%;
+	font-family: 'Univers Pro Extended';
+}
